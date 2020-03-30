@@ -1,0 +1,22 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  animation: bounceIn 500ms forwards;
+  &__buttons {
+    margin-top: 25px;
+    justify-content: space-evenly;
+    display: flex;
+  }
+}
+
+.text {
+  &--quote {
+    color: gray;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+}
